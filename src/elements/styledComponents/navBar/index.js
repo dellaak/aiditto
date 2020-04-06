@@ -3,13 +3,14 @@ import { Link as NLink } from 'react-router-dom';
 import { AppBar } from '@material-ui/core';
 
 export const NavBar = styled(AppBar)`
-height:100px;
+min-height:100px;
 background-color:white;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px;
 flex-direction:row;
+flex-wrap:wrap;
 `
 
 export const NavLogo = styled.img`

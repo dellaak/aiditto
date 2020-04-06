@@ -1,6 +1,6 @@
-import React from 'react'
-import { useSelector, useDispatch } from 'react-redux';
-import S from "../../elements/styledComponents/"
+import React from 'react';
+import { useSelector } from 'react-redux';
+import S from "../../elements/styledComponents/";
 import Button from '../../components/button/Button';
 import Search from "../../components/search/Search";
 

@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { Route, Switch, Redirect } from 'react-router-dom';
-import StartPage from "./views/startPage/startPage"
-import S from "./elements/styledComponents"
-import Navbar from "./components/navbar/Navbar"
+import React from 'react';
+import StartPage from "./views/startPage/startPage";
+import S from "./elements/styledComponents";
+import Navbar from "./components/navbar/Navbar";
 
 
 const App = () => {
